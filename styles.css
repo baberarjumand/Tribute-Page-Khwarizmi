@@ -1,0 +1,62 @@
+/* Color Palette
+#A4B494 - Laurel Green
+#BEC5AD - Gray (X11 Gray)
+#3B5249 - Arsenic (Dark Green)
+#519872 - Wintergreen Dream (Light Green)
+#34252F - Jet (Maroon-ish)
+*/
+
+body {
+    /* width: 100vw; */
+    background-color: #BEC5AD;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.banner {
+    /* max-width: 50%;     */
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+figure {
+    background-color: #A4B494;
+    border-radius: 5px;
+}
+
+figcaption {
+    margin-left: 5px;
+}
+
+blockquote {
+    background-color: #A4B494;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.book-cover {
+    max-width: 30%;
+    float: left; 
+    border: 0;
+    outline: 0;   
+}
+
+.book-cover img {
+    max-width: 100%;  
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
