@@ -55,11 +55,20 @@ blockquote {
     padding-bottom: 10px;
 }
 
-.book-cover {
+/* .book-cover {
     max-width: 30%;
     float: left; 
     border: 0;
     outline: 0;   
+} */
+
+@media (min-width: 630px) {
+    .book-cover {
+        max-width: 30%;
+        float: left; 
+        border: 0;
+        outline: 0;   
+    }
 }
 
 .book-cover img {
